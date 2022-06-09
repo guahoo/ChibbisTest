@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigator"
+    app:startDestination="@id/restaurantFragment">
+
+    <fragment
+        android:id="@+id/restaurantFragment"
+        android:name="com.testTask.chibbistest.ui.restaurant.RestaurantFragment"
+        android:label="fragment_restorant"
+        tools:layout="@layout/fragment_restaurant" />
+    <fragment
+        android:id="@+id/hitsFragment"
+        android:name="com.testTask.chibbistest.ui.hits.HitsFragment"
+        android:label="hitsFragment" />
+    <fragment
+        android:id="@+id/reviewFragment"
+        android:name="com.testTask.chibbistest.ui.reviews.ReviewFragment"
+        android:label="reviewFragment" />
+</navigation>

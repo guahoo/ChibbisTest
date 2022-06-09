@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/restaurantFragment"
+        android:icon="@drawable/ic_baseline_food_bank_24"
+        android:title="Рестораны"/>
+
+    <item
+        android:id="@+id/hitsFragment"
+        android:icon="@drawable/ic_baseline_stars_24"
+        android:title="Хиты" />
+
+    <item
+        android:id="@+id/reviewFragment"
+        android:icon="@drawable/ic_baseline_thumbs_up_down_24"
+        android:title="Отзывы" />
+
+
+</menu>
